@@ -29,7 +29,7 @@ public class HollowKnight extends ObjetoGrafico {
 		return mover(estado, distancia * 2);
 	}
 	
-	public List<Ponto> mover(boolean estado, double distancia){
+	private List<Ponto> mover(boolean estado, double distancia){
 		Ponto novaPosicao = null;
 		List<Ponto> trajetoria = new ArrayList<Ponto>();
 		trajetoria.add(getPosicao());
