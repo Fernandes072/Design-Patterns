@@ -15,5 +15,9 @@ public class LigarLuz implements Comando {
 	public void executar() {
 		luz.ligarLuz();
 	}
-
+	
+	@Override
+	public String toString() {
+		return "ligar " + luz.getComodo();
+	}
 }

@@ -42,5 +42,8 @@ public class Televisao {
 			throw new IllegalStateException("Televisão desligada");
 		}
 	}
-
+	
+	public String getComodo() {
+		return comodo;
+	}
 }

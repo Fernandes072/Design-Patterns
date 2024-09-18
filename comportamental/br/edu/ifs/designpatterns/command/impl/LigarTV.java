@@ -15,5 +15,9 @@ public class LigarTV implements Comando {
 	public void executar() {
 		televisao.ligarTelevisao();
 	}
-
+	
+	@Override
+	public String toString() {
+		return "ligar " + televisao.getComodo();
+	}
 }

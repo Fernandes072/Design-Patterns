@@ -20,5 +20,8 @@ public class Luz {
 	public void desligarLuz() {
 		estaLigada = false;
 	}
-
+	
+	public String getComodo() {
+		return comodo;
+	}
 }
